@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textTertiary">
+        <item name="android:layout_marginBottom">@dimen/small_spacing</item>
+    </style>
+    <style name="spinner_shape" >
+        <item name="android:layout_marginTop">@dimen/extra_spacing</item>
+        <item name="android:paddingTop">@dimen/small_spacing</item>
+        <item name="android:paddingBottom">@dimen/small_spacing</item>
+        <item name="android:paddingStart">@dimen/small_spacing</item>
+        <item name="android:paddingEnd">@dimen/large_spacing</item>
+        <item name="android:entries">@array/conversion_options</item>
+        <item name="colorOutline">@color/PrimaryText</item>
+    </style>
+    
+</resources>

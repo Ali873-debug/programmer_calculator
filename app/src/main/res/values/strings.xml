@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="oct">oct</string>
+    <string name="hex">hex</string>
+    <string name="dec">dec</string>
+    <string name="bin">bin</string>
+    <string name="convert">Convert</string>
+    <string name="enter_a_value">Enter a value</string>
+    <string name="result">result</string>
+    <string name="invalidText">Invalid input</string>
+</resources>
