@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
         spinnerTo = findViewById(R.id.spinnerTo)
         editTextInput = findViewById(R.id.input_edittext)
         textViewResult = findViewById(R.id.result_edittext)
-        buttonConvert = findViewById<AppCompatButton>(R.id.calculate_button)
+        buttonConvert = findViewById(R.id.calculate_button)
     }
 }
 

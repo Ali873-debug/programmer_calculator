@@ -10,13 +10,13 @@
     <EditText
         android:id="@+id/input_edittext"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/huge_heghit"
+        android:layout_height="@dimen/huge_height"
         android:layout_marginTop="@dimen/large_spacing"
         android:layout_marginHorizontal="@dimen/normal_spacing"
-        android:background="@drawable/buttonshape"
+        android:background="@drawable/button_shape"
         android:hint="@string/enter_a_value"
         android:padding="@dimen/normal_spacing"
-        android:textColorHint="@color/secondry"
+        android:textColorHint="@color/secondary"
         android:textSize="@dimen/small_text"
         app:layout_constraintStart_toStartOf="@+id/from_text"
         app:layout_constraintTop_toBottomOf="@id/spinnerFrom" />
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:text="@string/from"
         android:layout_marginBottom="@dimen/small_spacing"
-        android:textColor="@color/secondry"
+        android:textColor="@color/secondary"
         android:textSize="@dimen/normal_text"
         app:layout_constraintBottom_toTopOf="@id/spinnerFrom"
         app:layout_constraintStart_toStartOf="@id/spinnerFrom" />
@@ -52,7 +52,7 @@
         android:text="@string/to"
         android:layout_marginBottom="@dimen/small_spacing"
         android:layout_marginTop="@dimen/normal_spacing"
-        android:textColor="@color/secondry"
+        android:textColor="@color/secondary"
         android:textSize="@dimen/normal_text"
         app:layout_constraintBottom_toTopOf="@+id/spinnerTo"
         app:layout_constraintStart_toStartOf="@id/spinnerTo" />
@@ -80,7 +80,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/calculate_button"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/huge_heghit"
+        android:layout_height="@dimen/huge_height"
         android:layout_marginTop="@dimen/normal_spacing"
         android:textColor="@color/PrimaryText"
         android:background="@drawable/textview_shape"
